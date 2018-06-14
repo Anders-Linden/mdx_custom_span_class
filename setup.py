@@ -3,13 +3,13 @@
 
 from setuptools import setup
 setup(
-    name='mdx_customspanclass',
+    name='mdx_customdivclass',
     version='1.1.1',
     author='Konrad Wasowicz',
     author_email='exaroth@gmail.com',
-    description='Markdown extension which allows inserting span elements with custom class',
-    url='https://github.com/exaroth/mdx_custom_span_class',
-    py_modules=['mdx_custom_span_class'],
+    description='Markdown extension which allows inserting div elements with custom class',
+    url='https://github.com/Anders-Linden/mdx_custom_div_class',
+    py_modules=['mdx_custom_div_class'],
     install_requires=['Markdown>=2.0',],
     classifiers=[
         'Development Status :: 4 - Beta',
